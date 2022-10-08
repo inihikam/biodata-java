@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/foto"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="NIM : A11.2021.13550"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Nama : Muhammad Maulana Hikam"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Hobby : Membaca Novel, Mendengarkan Musik dan Bermain Game"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Saya seorang Mahasiswa di Universitas Dian Nuswantoro. Berada
+pada Fakultas Ilmu Komputer dan mengambil jurusan Teknik Informatika."
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Alamat"
+        android:textColor="@color/black"
+        android:backgroundTint="#bfbfbf"/>
+
+    <Button
+        android:id="@+id/btnTelepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telepon"
+        android:textColor="@color/black"
+        android:backgroundTint="#bfbfbf"/>
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:backgroundTint="#bfbfbf"/>
+
+</LinearLayout>
